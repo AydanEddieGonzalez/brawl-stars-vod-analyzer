@@ -1,0 +1,10 @@
+﻿-e git+https://github.com/AydanEddieGonzalez/brawl-stars-vod-analyzer@44d0ffb785a39ba4881257070d711ebddaba504d#egg=brawl_vod
+colorama==0.4.6
+iniconfig==2.3.1
+numpy==2.4.6
+opencv-python==5.1.0.95
+packaging==26.3
+pluggy==1.7.0
+Pygments==2.21.0
+pytest==9.2.0
+yt-dlp==2026.10.26
