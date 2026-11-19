@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data (raw videos, frames, labels) - never committed
+data/
+dataset/
+*.mp4
+*.webm
+*.mkv
+
+# Ultralytics training runs
+runs/
+
+# Model weights (only models/best.pt is committed)
+*.pt
+!models/best.pt
+
+# Outputs from analyze_match.py
+outputs/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
